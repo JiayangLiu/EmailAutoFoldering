@@ -1,0 +1,11 @@
+@relation sim_subject
+
+@attribute &E_0 numeric
+@attribute &E_1 numeric
+@attribute &E_2 numeric
+@attribute Folder {chickenspicy}
+
+@data
+1.0,0.0,0.0,chicken
+0.0,1.0,0.0,chicken
+0.0,0.0,1.0,spicy

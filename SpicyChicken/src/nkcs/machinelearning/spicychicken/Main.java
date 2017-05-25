@@ -1,16 +1,19 @@
 package nkcs.machinelearning.spicychicken;
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Created by LIUJiayang on 23/05/2017.
+ */
 public class Main {
     static String userFolder;
-    static ArrayList<Email> emailList;
+    static ArrayList<EmailEntity> emailList;
     static ArrayList<String> folderList;
+    static int emailNumber = 0;
 
     static private void init() throws IOException {
         File directory = new File("");
@@ -22,7 +25,6 @@ public class Main {
     /**
      * @author LIUJiayang & JINXv
      * @date Tue 23 May 2017
-     * @throws Exception
      * @explain training set loading in
      */
     static private void loadTrainingSet() throws Exception {
@@ -46,9 +48,10 @@ public class Main {
                 if (file.getName().contains("_"))
                     continue;
                 BufferedReader reader = new BufferedReader(new FileReader(file));
-                Email email = new Email();
+                EmailEntity email = new EmailEntity();
                 email.emailId = ++emailId;
                 email.classLabel = classLabel;
+                email.folderName = folderName;
                 /* load Subject */
                 email.subject = reader.readLine().substring(8).trim();  // it is for the special case like "Subject: Re: ..." that I give up using "split(":")[1]"
                 /* load Participant */
@@ -66,7 +69,7 @@ public class Main {
                             line = "EmptyField";
                         }
                     }
-                    if (! line.equals("EmptyField")) {
+                    if (!line.equals("EmptyField")) {
                         String[] splitList = line.split(",");
                         for (int i = 0; i < splitList.length; i++) {
                             email.participant.add(splitList[i].trim());
@@ -87,13 +90,23 @@ public class Main {
         // Step 1: training set loading in
         loadTrainingSet();
         // test
-        System.out.println("\n---------------------------------------------\n");
-        for (int i = 0; i < emailList.size(); i++) {
-            System.out.println("emailId: " + emailList.get(i).emailId);
-            System.out.println("classLabel: " + emailList.get(i).classLabel);
-            System.out.println("subject: " + emailList.get(i).subject);
-            System.out.println("participant: " + emailList.get(i).participant.toString());
-            System.out.println("\n*********************************************\n");
-        }
+//        System.out.println("\n---------------------------------------------\n");
+//        for (int i = 0; i < emailList.size(); i++) {
+//            System.out.println("emailId: " + emailList.get(i).emailId);
+//            System.out.println("classLabel: " + emailList.get(i).classLabel);
+//            System.out.println("subject: " + emailList.get(i).subject);
+//            System.out.println("participant: " + emailList.get(i).participant.toString());
+//            System.out.println("content: " + emailList.get(i).content);
+//            System.out.println("\n*********************************************\n");
+//        }
+
+        // Step 2: feature weighting
+        FeatureWeighting fw = new FeatureWeighting(emailList);
+        fw.calculateTFIDF();
+        fw.calculateSimilarity();
+        fw.exportArff(folderList);
+
+        // Step 3: feature selection
+
     }
 }
