@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eclipse-userlibraries />
+<eclipse-userlibraries>
+  <library name="lucene-core-6.5.1">
+    <archive path="/Users/macdowell/Desktop/Professional Materials/3_Junior_S2/2_MachineLearning/Lab/7_FinalProject/SpicyChicken/lucene-core-6.5.1.jar" />
+  </library>
+  <library name="weka">
+    <archive path="/Users/macdowell/Desktop/Professional Materials/3_Junior_S2/2_MachineLearning/Lab/7_FinalProject/SpicyChicken/weka.jar" />
+  </library>
+</eclipse-userlibraries>
 

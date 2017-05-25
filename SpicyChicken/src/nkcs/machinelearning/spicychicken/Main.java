@@ -107,6 +107,19 @@ public class Main {
         fw.exportArff(folderList);
 
         // Step 3: feature selection
+        FeatureSelection fs = new FeatureSelection();
+        fs.filtrateAttribute("subject", 300);
+        fs.filtrateAttribute("participant", 300);
+        fs.filtrateAttribute("content", 300);
 
+        // Step 4: classifier training
+
+        // Step n: new email foldering interaction
+//        NewEmailUI ui = new NewEmailUI();
+//        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+//            public void run() {
+//                ui.createAndShowGUI();
+//            }
+//        });
     }
 }

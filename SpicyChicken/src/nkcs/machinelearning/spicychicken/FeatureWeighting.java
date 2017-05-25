@@ -229,7 +229,8 @@ public class FeatureWeighting {
                 for (Entry<String, Double> entry : tf_idf2.entrySet()) {
                     length2 += Math.pow(entry.getValue(), 2);
                 }
-                sim /= Math.sqrt(length1) * Math.sqrt(length2);
+                double temp = Math.sqrt(length1) * Math.sqrt(length2);
+                sim = temp == 0 ? 0 : sim / temp;
                 sim_matrix_subject.get(i).set(j, sim);
 
                 tf_idf1 = tf_idf_content_list.get(i);
@@ -252,7 +253,8 @@ public class FeatureWeighting {
                 for (Entry<String, Double> entry : tf_idf2.entrySet()) {
                     length2 += Math.pow(entry.getValue(), 2);
                 }
-                sim /= Math.sqrt(length1) * Math.sqrt(length2);
+                temp = Math.sqrt(length1) * Math.sqrt(length2);
+                sim = temp == 0 ? 0 : sim / temp;
                 sim_matrix_content.get(i).set(j, sim);
 
                 tf_idf1 = tf_idf_participant_list.get(i);
@@ -275,7 +277,8 @@ public class FeatureWeighting {
                 for (Entry<String, Double> entry : tf_idf2.entrySet()) {
                     length2 += Math.pow(entry.getValue(), 2);
                 }
-                sim /= Math.sqrt(length1) * Math.sqrt(length2);
+                temp = Math.sqrt(length1) * Math.sqrt(length2);
+                sim = temp == 0 ? 0 : sim / temp;
                 sim_matrix_participant.get(i).set(j, sim);
             }
         }
@@ -313,7 +316,7 @@ public class FeatureWeighting {
                 default:
                     break;
             }
-            File file = new File(resultPath + "/" + fieldName + ".arff");  // save in result folder gaining the aid of its refresh mode
+            File file = new File(resultPath + "/fw_" + fieldName + ".arff");  // save in result folder gaining the aid of its refresh mode
             // create it if file doesn't exists
             if (!file.exists())
                 file.createNewFile();
@@ -328,7 +331,7 @@ public class FeatureWeighting {
             }
             bw.write("@attribute Folder {");
             for (int i = 0; i < folderList.size(); i++) {
-                bw.write(folderList.get(i));
+                bw.write(folderList.get(i) + ",");
             }
             bw.write("}\n\n");
             /* data area */

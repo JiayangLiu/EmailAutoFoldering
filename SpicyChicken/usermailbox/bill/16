@@ -1,0 +1,48 @@
+Subject: New App in Enpower - Schedule Extraction
+From: thresa.allen@enron.com
+To: bill.iii@enron.com
+cc:
+bcc:
+
+Schedule Extraction
+
+Please forward this message to all members of your group and to anyone else who might benefit from this program.
+
+Enpower IT has done an outstanding job in creating this application.  It is invaluable to me in verifying that all my deals are in Enpower correctly 
+and the delivery point is balanced.  It should be very helpful to be sure that a desk, delivery point and/or region is balanced.  Please take a look 
+and come by my desk for a demo if you would like.
+
+PS - Thanks you Casey, JP, Gerald and Jason for helping me to test this application.
+
+Rebecca
+
+To Open:
+
+
+
+To Run: 
+
+1)  Enter the criteria into the filter at the top, paying close attention to whether you want Physical or Financial deals, and whether
+you want to "Include Desk-to-desk" deals.  The more filter criteria you add the fast the extract will run.
+
+2) Hit Extract
+
+
+
+
+To Export:
+
+The middle section of the application displays all the records or strips that were extracted.  This may be quickly saved to a text
+file to analyze in Excel, by choosing File...Save... from the menu.
+
+
+	
+To Summarize and Subtotal:
+
+The Subtotal area at the bottom of the screen, groups and subtotals the records based on the fields that are dragged 
+into the gray area right below the filter (shown here in blue).  At the very bottom of the subtotal area is a GRAND TOTAL 
+for all records extracted.
+
+
+
+

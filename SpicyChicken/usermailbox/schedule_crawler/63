@@ -1,0 +1,35 @@
+Subject: Schedule Crawler: HourAhead Failure
+From: pete.davis@enron.com
+To: pete.davis@enron.com
+Cc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+Bcc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+
+Start Date: 2/4/02; HourAhead hour: 12;  HourAhead schedule download failed. Manual intervention required.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final Schedules\2002020412.txt
+!!!General SQL error.
+Couldn't update; currently locked by user 'Admin' on machine 'NAHOU-TRDTS5'.
+Table
+!!!General SQL error.
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+Field
+!!!General SQL error.
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+Field
+!!!General SQL error.
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+Field
+!!!General SQL error.
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+Field
+!!!General SQL error.
+The field is too small to accept the amount of data you attempted to add.  Try inserting or pasting less data.
+Field

@@ -1,0 +1,33 @@
+Subject: Start Date: 2/5/02; HourAhead hour: 1;
+From: pete.davis@enron.com
+To: pete.davis@enron.com
+Cc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+Bcc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+
+Start Date: 2/5/02; HourAhead hour: 1;  No ancillary schedules awarded.  No variances detected. 
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final Schedules\2002020501.txt
+!!!General SQL error.
+Couldn't update; currently locked by user 'admin' on machine 'ECTHOU-BPS3'.
+Table
+
+---- Energy Import/Export Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: ECTstNW
+  MKT_TYPE: 2
+  TRANS_DATE: 2/5/02
+  TIE_POINT: MALIN_5_RNDMTN
+  INTERCHG_ID: ENRJ_CISO_3000
+  ENGY_TYPE: FIRM
+

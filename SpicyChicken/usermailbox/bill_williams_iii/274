@@ -1,0 +1,23 @@
+Subject: EPE Lending/Day-Ahead Short for 8/15
+From: kate.symes@enron.com
+To: shift.dl-portland@enron.com
+cc: lisa.gang@enron.com
+bcc: lisa.gang@enron.com
+
+Per El Paso Lending Agreement - 
+
+We will be short a total of 50 mw on peak at Palo Verde tomorrow: 25 mw under STWBOM, 25 mw under STSW. Following are the deal numbers. You will need to purchase energy to cover this short in the Real Time market. Remember to purchase under the same desk in which you are short megawatts. Then sell, under the same desk, back to El Paso at $0 to complete the buy-resale.
+
+730961 - STWBOM buys EPE
+	 25 mw @ $49
+
+730963 - STWBOM sells STSW
+	 25 mw @ $49
+
+730973 - STSW buys EPE
+	 25 mw @ $49
+
+We're also short at SP15, 25 mw on peak at a day-ahead price of $43.73. Imbalance deal is 730903. Please let me know if you have questions.
+
+Thanks,
+Kate

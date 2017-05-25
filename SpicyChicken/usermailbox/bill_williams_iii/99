@@ -1,0 +1,18 @@
+Subject: Coordinated Operation of Controllable devices
+From: marketopshourahead@caiso.com
+To: mktstathourahead@caiso.com
+cc:
+bcc:
+
+System Notification: At 1345 PDT, PAC sent the following WSCC Telenet
+message: Path 20 is experiencing high clockwise unscheduled flow. Net
+schedule on the Path has been reduced to 85% of the transfer limit and the
+actual flow remains at 95% or higher. PAC now requests coordinated operation
+of controllable devices to take effect this hour.  Path 20 limit 607MW with
+actual flow of 675MW.  Schedules on the path are 440MW.  Please check your
+schedules.
+
+The system conditions described in this communication are dynamic and
+subject to change.  While the ISO has attempted to reflect the most current,
+accurate information available in preparing this notice, system conditions
+may change suddenly with little or no notice.

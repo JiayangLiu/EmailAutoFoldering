@@ -3,4 +3,8 @@
 	<output-test url="file://$MODULE_DIR$/out/test/SpicyChicken"/>
 	<exclude-output/>
 	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="lucene-core-6.5.1" value="project"/>
+		<level name="weka" value="project"/>
+	</levels>
 </component>

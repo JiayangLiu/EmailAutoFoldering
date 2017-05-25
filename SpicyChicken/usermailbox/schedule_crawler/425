@@ -1,0 +1,46 @@
+Subject: Schedule Crawler: HourAhead Failure
+From: pete.davis@enron.com
+To: pete.davis@enron.com
+Cc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+Bcc: albert.meyers@enron.com, bill.williams@enron.com, craig.dean@enron.com,
+	geir.solberg@enron.com, john.anderson@enron.com,
+	mark.guzman@enron.com, michael.mier@enron.com, pete.davis@enron.com,
+	ryan.slinger@enron.com
+
+Start Date: 1/20/02; HourAhead hour: 11;  HourAhead schedule download failed. Manual intervention required.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final Schedules\2002012011.txt
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+Error: dbCaps97Data: Cannot perform this operation on a closed database
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+!!!Unknown database.
+Alias: dbCaps97Data
+Error: dbCaps97Data: Cannot perform this operation on a closed database

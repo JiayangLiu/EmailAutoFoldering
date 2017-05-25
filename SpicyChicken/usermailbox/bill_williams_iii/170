@@ -1,0 +1,14 @@
+Subject: Interim Solution for Real-Time EOL deals
+From: david.poston@enron.com
+To: scotty.gilbert@enron.com, p..o'neil@enron.com, chris.stokley@enron.com,
+	bill.williams@enron.com
+cc: m..docwra@enron.com, pete.davis@enron.com
+bcc: m..docwra@enron.com, pete.davis@enron.com
+
+Good Afternoon,
+
+With the go-live date for FSP/VMS still in question, we have decided that we will build interim solution for CAPS.  There will be a new button added to the main menu of caps called "Upload RT EOL".  This new function will prompt the user to input a date & an hour.  The new function will then select west-hourly, EOL, SC trades from Enpower for the date & hour selected & insert the rows in CAPS.
+
+Please let me know immediately if anyone has any concerns or questions, we are starting on this work ASAP.
+
+Thanks,  Poston

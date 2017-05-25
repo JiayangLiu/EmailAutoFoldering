@@ -1,0 +1,40 @@
+Subject: Epmi Cal Pool Deal Entry-BUSINESS PRACTICE CHANGES
+From: bill.williams@enron.com
+To: john.anderson@enron.com, todd.bland@enron.com, craig.dean@enron.com,
+	mark.guzman@enron.com, leaf.harasin@enron.com, eric.linder@enron.com,
+	steven.merriss@enron.com, albert.meyers@enron.com,
+	michael.mier@enron.com, v..porter@enron.com, darin.presto@enron.com,
+	ryan.slinger@enron.com, geir.solberg@enron.com, kate.symes@enron.com,
+	bill.williams@enron.com
+cc:
+bcc:
+
+Group,
+We have had some issues with EpmiCalPool deals recently and I wanted to provide information for newer members of the group and a quick reminder for crusty veterans as we head into the Thanksgiving Holiday. I have also decided to change our protocol for entering multiple EpmiCalPool deals. Please pay special attention to #5 below.
+
+So, some basic rules about EpmiCalPool deals.
+
+1. EpmiCalPool deals are BUY-RESALE deals--(a transmission deal will work but is not the preferred method)
+
+2. We only BUY from the EpmiCalPool-no exceptions-.
+
+3. EpmiCalPool deals have a $0 price in the buy and sell portions. Please do not enter a price on an EpmiCalPool deal.
+
+4. EpmiCalPool deals must have a delivery point of an CISO tie point or an CISO congestion zone. Good delivery points would be:
+Malin, COB N/S, COB S/N, NOB N/S, NOB S/N, Cascade, Captain Jack, Summit, Four Corners 345, Mead 230, Paloverde, NP-15, ZP-26, SP-15.
+
+Bad delivery points would include: Mid-C, Hotsprings, Hidalgo, BC Border.
+
+5. IMPORTANT CHANGES TO BUSINESS PRACTICE HERE EpmiCalPool deals are used to simulate the purchase of transmission from the California ISO. 
+
+	a.) If you have a wheel from tie point to tie point for example Malin to Four Corners for congestion management--than an EpmiCalPool deal from Malin to Four 	Corners would be appropriate. For seperate wheels from tie point to tie point we will NOT be putting in deals from Malin to NP-15, NP-15 to SP-15, and SP-15 to 	Four Corners. 
+
+	b.)However, from Congestion zone to congestion zone inside of California, or if you are moving tie point to a congestion zone--for example Malin to SP-15 we will 	need a Malin to NP-15 and NP-15 to SP-15. This will allow us to better capture congestion across congestion zones in California, and will prepare us for the move 	to FSP.
+
+6. We will initiate this change in business practice HE 1 on Tuesday November 20th.
+
+Epmicalpool deals continue to provide problems with reports. Please see me with any questions.
+
+Thanks,
+
+Bill
